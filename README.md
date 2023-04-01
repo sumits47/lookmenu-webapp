@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Reference
+
+- [Felix - Webflow](https://felix-template.webflow.io/landing/landing-2)
+- [Safozai - Webflow](https://safozai.webflow.io/home-pages/home-v1)
+
 ## Getting Started
 
 First, run the development server:
