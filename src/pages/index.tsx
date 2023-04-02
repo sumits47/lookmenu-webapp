@@ -1,3 +1,4 @@
+import Benefits from '@/components/home/Benefits'
 import Hero from '@/components/home/Hero'
 import Head from 'next/head'
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Benefits id="benefits" />
       </main>
     </>
   )
