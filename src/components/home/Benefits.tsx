@@ -18,19 +18,18 @@ function BenefitCard({
     <div
       className={classNames(
         'bg-white',
-        'drop-shadow-xl',
+        'drop-shadow-2xl',
         'rounded-3xl',
         'p-8',
         'flex',
         'flex-col',
         'gap-4',
-        'text-lg',
         'text-slate-600'
       )}
       {...rest}
     >
       <Image src={imgSrc} alt="Benefit" width={96} height={96} />
-      <div className="font-semibold text-2xl text-slate-800">{title}</div>
+      <div className="font-semibold text-xl text-slate-800">{title}</div>
       {children}
     </div>
   )
@@ -41,11 +40,21 @@ export default function Benefits({
   ...rest
 }: HTMLProps<HTMLDivElement>) {
   return (
-    <div className={classNames('bg-slate-100', className)} {...rest}>
+    <div
+      className={classNames(
+        'bg-slate-100',
+        'min-h-[50rem]',
+        'flex',
+        'flex-col',
+        'items-center',
+        'justify-center',
+        className
+      )}
+      {...rest}
+    >
       <div
         className={classNames(
-          'py-16',
-          'px-8',
+          'p-8',
           'max-w-7xl',
           'mx-auto',
           'flex',

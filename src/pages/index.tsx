@@ -1,4 +1,5 @@
 import Benefits from '@/components/home/Benefits'
+import Features from '@/components/home/Features'
 import Hero from '@/components/home/Hero'
 import Head from 'next/head'
 
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <Benefits id="benefits" />
+        <Features id="features" />
       </main>
     </>
   )
